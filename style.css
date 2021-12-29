@@ -742,7 +742,7 @@ footer .social a:hover {
 }
 
 /* medium devices: 767px > */
-@media (min-width: 767px) {
+@media (min-width: 600px) {
   .section {
     padding: 12rem 0;
   }
