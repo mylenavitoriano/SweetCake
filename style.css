@@ -731,7 +731,7 @@ footer .social a:hover {
 /* large devices: 992px > */
 @media (min-width: 992px) {
   .section {
-    padding: 10rem 0;
+    padding: calc(8rem + var(--header-height)) 0;
   }
 
   :root {
@@ -741,9 +741,9 @@ footer .social a:hover {
   }
 }
 
-/* medium devices: 767px > */
+/* medium devices: 747px > */
 @media (min-width: 600px) {
   .section {
-    padding: 12rem 0;
+    padding: calc(8rem + var(--header-height)) 0;
   }
 }
