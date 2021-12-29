@@ -730,10 +730,6 @@ footer .social a:hover {
 
 /* large devices: 992px > */
 @media (min-width: 992px) {
-  .section {
-    padding: calc(10rem + var(--header-height)) 0;
-  }
-
   :root {
     --font-title: 2.25rem;
     --font-logo: 1.56rem;
@@ -741,5 +737,9 @@ footer .social a:hover {
   }
 }
 
-/* medium devices: 747px > */
-@media (min-width: 600px) {}
+/* medium devices: 600px > */
+@media (min-width: 600px) {
+  .section {
+    padding: calc(8rem + var(--header-height)) 0;
+  }
+}
