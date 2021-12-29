@@ -731,7 +731,7 @@ footer .social a:hover {
 /* large devices: 992px > */
 @media (min-width: 992px) {
   .section {
-    padding: calc(8rem + var(--header-height)) 0;
+    padding: calc(10rem + var(--header-height)) 0;
   }
 
   :root {
