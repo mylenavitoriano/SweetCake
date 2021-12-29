@@ -742,8 +742,4 @@ footer .social a:hover {
 }
 
 /* medium devices: 747px > */
-@media (min-width: 600px) {
-  .section {
-    padding: calc(8rem + var(--header-height)) 0;
-  }
-}
+@media (min-width: 600px) {}
